@@ -1,0 +1,26 @@
+{
+	"editor.fontSize": 20,
+    "editor.renderWhitespace": "boundary",
+    "workbench.editor.enablePreview": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "todohighlight.defaultStyle": {},
+    "todohighlight.keywords": [
+        {
+            "text": "NOTE:",
+            "color": "white",
+            "backgroundColor": "gray",
+            "overviewRulerColor": "grey",
+            "isWholeLine": false,
+            "bold": true
+            // "border": "1px solid red",
+            // "borderRadius": "2px",
+        }
+    ],
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/dist": true
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.tsdk": "node_modules\\typescript\\lib"
+}
