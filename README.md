@@ -1,8 +1,10 @@
-## init
-`npm intall`  명령어로 필요한 모듈들은 다운로드.  
+# 개요
+1. 서버실행 방법 및 명령어
+2. 사용된 기술
+3. 앵귤러 코드 설명
   
-  
-## 서버 실행  
+## 1. 서버 실행  
+`npm intall`  package.json 모듈 다운로드
 `ng server` : 서버 실행  
 `--port` : 포트 변경  ( `ng serve` default 4200 )  
 `--host` : 0.0.0.0 ( `ng serve` default 127.0.0.1 )
@@ -22,3 +24,5 @@
 ### 기타 명령어.
 `ng generate component component-name` or `ng g c component-name` : 컴포넌트 생성  
 `ng --version` : 앵귤러 버전확인
+
+## 
