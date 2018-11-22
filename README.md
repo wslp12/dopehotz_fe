@@ -41,7 +41,7 @@ Webhook(gitlab -> jenkins)걸어준다.
 `docker run -it {repoName}:{tagName} /bin/bash` : 실행 및 접속  
 `yam install ...` 필요한 프로그램 설치 ( nginx,node,angular cli,git )  
 `docker commit {CONTAINER_ID} {WANT_NAME}` : 컨테이너 commit  
-`docker images` : commit 이미지 확인
+`docker images` : commit 이미지 확인  
 ![webhookgitlab](./readme_image/4.PNG)  
 `docker push ..` dockhub에 push  
 `docker run --privileged -p {hostPort}:{containerPort} -it -e "container=docker" -v {jenkinsFiles}:/usr/share/nginx/html -v /sys/fs/cgroup:/sys/fs/cgroup {repository}:{tag} /usr/sbin/init`  
