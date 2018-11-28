@@ -1,9 +1,4 @@
-# 개요
-1. 서버실행 방법 및 명령어
-2. 사용된 기술
-3. 앵귤러 코드
-  
-## 1. 서버 실행  
+## 서버 실행  
 `npm intall`  package.json 모듈 다운로드
 `ng server` : 서버 실행  
 `--port` : 포트 변경  ( `ng serve` default 4200 )  
@@ -25,7 +20,7 @@
 `ng generate component component-name` or `ng g c component-name` : 컴포넌트 생성  
 `ng --version` : 앵귤러 버전확인
 
-## 2. 사용된 기술
+## 사용된 기술
 >jenkins (CI server)
 server : raspberry pi  
 
@@ -51,9 +46,3 @@ docker 적용
 
 ~~자세한 docker 명령어 및 실행방법 dockerhub를 참조~~  
 >~~https://hub.docker.com/r/wslp12/dopehotz_fe/~~
-
-## 3. 앵귤러 코드
-
-
-
-
