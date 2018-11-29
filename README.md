@@ -17,7 +17,7 @@
 
 
 ### 기타 명령어.
-`ng generate component component-name` or `ng g c component-name` : 컴포넌트 생성  
+`ng generate component component-name` : 컴포넌트 생성  
 `ng --version` : 앵귤러 버전확인
 
 ## 사용된 기술
@@ -25,11 +25,17 @@
 gitlab에서 이벤트를 감지 이후 빌드 
 빌드 완료 후 SFTP 프로토콜 접속 및 배포
 ![jenkins](./readme_image/5.PNG)  
-
-#### docker 
+~~jenkins~~
+>~~http://jhonbur.com:8090/job/dopehotz/~~
+#### docker
 프로젝트 진행중 잦은 서버 옮김 및 문제로 인해 docker 도입  
-![webhookgitlab](./readme_image/4.PNG)  
-![webhookgitlab](./readme_image/3.PNG)  
+![webhookgitlab](./readme_image/6.PNG)  
 
 ~~자세한 docker 명령어 및 실행방법 dockerhub를 참조~~  
 >~~https://hub.docker.com/r/wslp12/dopehotz_fe/~~
+
+## --------------------------------------
+![a](./readme_image/a.PNG)  
+![b](./readme_image/b.PNG)  
+![c](./readme_image/c.PNG)  
+![d](./readme_image/d.PNG)  
